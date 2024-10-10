@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
-header {
-    background: orange;
-}
-
-footer {
-    background: slategray;
-}
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+header {
+    background: orange;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background: slategray;
 }
