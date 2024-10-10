@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +10,25 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Lato, sans-serif;
 }
 
 header {
     background: orange;
+    color: #000;
+    font-family: Oswald, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 main {
     flex: 1 0 auto;
+    background: #e5e5e5;
+    color: #222;
+    padding: 2rem;
+    line-height: 1.5em;
 }
 
 footer {
